@@ -1,0 +1,469 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+
+body{
+  background-color:#f8f8f8;
+  margin:0px;
+}
+
+/* Parallax */
+
+#bg{
+  top:0px;
+  position:absolute;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  flex-direction:row;
+  width:100%;
+  z-index:10;
+}
+
+#bg>.img{
+  width:100%;
+  margin:0 auto;
+  padding:0px;
+  float:left;
+  background-size:100%;
+  background-repeat:no-repeat;
+  height: 1200px;
+}
+
+.first{
+  margin-top:200px;
+  min-height:500px !important;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 0 0 22px black, 0 0 22px black; 
+}
+
+.second{
+  min-height:100px !important;
+  
+}
+
+.third{
+  min-height:600px !important;
+  
+}
+
+.fourth{
+   min-height: 1000px !important;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 0 0 22px black, 0 0 22px black; 
+}
+
+.fifth{
+   min-height:1000px !important;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-shadow: 0 0 22px black, 0 0 22px black;
+}
+
+.sixth{
+   min-height: 1000px !important;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+ 
+  text-shadow: 0 0 22px black, 0 0 22px black;
+}
+
+.seventh{
+   min-height: 1000px !important;
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  
+  text-shadow: 0 0 22px black, 0 0 22px black;
+}
+
+.blockItem{
+  width:100%;
+   display: -moz-box;
+  display: -ms-flexbox;
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  flex-direction:row;
+
+  background-image: none;
+  background-color: black !important;
+  opacity: 0.90;
+
+  font-weight: bold;
+
+  min-height:200px;
+  margin-bottom:100px;
+  z-index:100;
+  position:relative;
+}
+
+
+/* Nav Bar  */
+
+
+.navbar{
+
+  background-image: none;
+  background-color: black !important;
+  opacity: 0.8;
+  color: white;
+  font-weight: bold;
+}
+
+p{
+
+  font-size: 15px;
+  text-align: center;
+  -webkit-text-fill-color: #fff;
+  text-shadow: 0 0 35px #660000 , 0 0 30px #660000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+#valiseText{
+  font-size: 50px;
+  text-align: center;
+/*  -webkit-text-fill-color: #fff;
+  text-shadow: 0 0 35px #660000 , 0 0 30px #660000; */
+  font-family: 'Playfair Display SC', serif;
+}
+
+
+.btn{
+  background-color: #660000 !important;
+  background-image: none !important;
+  margin-right: -100px;
+   -webkit-text-fill-color: #fff;
+}
+
+.button1{
+  margin-top: 25px;
+}
+
+
+
+
+h3 span{
+   -webkit-text-fill-color:#660000 ;
+    text-shadow: 0 0 35px #fff , 0 0 30px #fff; 
+   font: bold 10px/10px 'Playfair Display', serif; 
+   letter-spacing: -1px;
+   position: absolute;
+   margin-top: 350px;
+   margin-left: 116px;
+   z-index: 100;
+   font-size: 280px !important;
+  
+}
+
+.signUp{
+   z-index: 100;
+   color: white; 
+   font: bold 15px/15px 'Playfair Display', serif; 
+   /*letter-spacing: -1px;*/
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);  
+   position: absolute;
+/*   margin-top: 32px;
+   margin-left: -13px;*/
+   margin-top: 200px;
+   margin-bottom: 40px;
+   padding: 50px;
+}
+
+
+
+
+
+#square{
+
+  border: 4px solid white !important;
+
+  margin-top: 121px;
+
+  padding: 25px;
+
+}
+
+/* Countdown */
+
+.countdownDisplay{
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  background-color: black;
+
+}
+
+#display{
+  font-size: 25px;
+  text-align: center;
+  -webkit-text-fill-color: #FFF;
+  text-shadow: 0 0 22px black, 0 0 22px black; 
+  margin-left: 41px;
+  margin-top: 55px;
+}
+
+.countdownText {
+  font-size: 40px;
+  margin-bottom: 5px;
+  text-align: center;
+  -webkit-text-fill-color: #FFF;
+  text-shadow: 0 0 22px black, 0 0 22px black; 
+
+}
+
+/* ToDo*/
+
+
+.todolist{
+    background-color:#FFF;
+    padding:20px 20px 10px 20px;
+    margin-top:30px;
+}
+.todolist h1{
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
+}
+.form-control{
+    border-radius:0;
+}
+li.ui-state-default{
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+li.ui-state-default:last-child{
+    border-bottom:none;
+}
+
+.todo-footer{
+    background-color:#F4FCE8;
+    margin:0 -20px -10px -20px;
+    padding: 10px 20px;
+}
+#done-items li{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+    text-decoration:line-through;
+}
+#done-items li:last-child{
+    border-bottom:none;
+}
+#checkAll{
+    margin-top:10px;
+}
+
+.pull{
+
+
+ float: right;
+ margin-right: 20px;
+
+}
+
+
+
+.mockBox{
+  border: 4px solid white !important;
+  margin-top: 15px !important; 
+
+  padding: 30px !important;
+}
+
+/* File Upload*/
+
+.myFile{
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+}
+
+input[type=file] {
+  margin-left: 121px;
+
+}
+
+
+#forms{
+   font-size: 18px;
+
+  margin-top: 15px !important;
+}
+
+.form-control{
+  
+ 
+}
+
+.text{
+
+   -webkit-text-fill-color: #FFF !important;
+   
+
+}
+
+
+.text2{
+
+   -webkit-text-fill-color: #FFF !important;
+   font-size: 15px;
+
+}
+
+
+/* Comments Box */
+
+
+#title{
+  font-family:'Poiret One', cursive;
+  font-weight: bolder;
+  color: limegreen;
+}
+
+
+.commentsText{
+  
+  
+   -webkit-text-fill-color: #fff !important;
+  
+   font-family:'Poiret One', cursive !important;
+}
+
+
+
+#name{
+  text-align: center;
+  font-family: sans-serif;
+  width: 85%;
+  height: 25px;
+  font-size: 12px !important;
+  font-family:'Poiret One', cursive !important;
+  border: 3px solid #660000;
+  font-weight: bold;
+  
+}
+
+textarea{
+  margin-top: 2%;
+  width: 85%;
+  height: 90px;
+  font-size: 12px !important;
+  font-family:'Poiret One', cursive !important;
+   border: 4px solid #660000;
+   font-weight: bold;
+}
+
+
+
+
+
+.btn:hover{
+  cursor: pointer;
+  background-color: gold;
+  transition: .3s;
+}
+
+
+/* Comments Box 2 */
+
+
+#title2{
+  font-family:'Poiret One', cursive;
+  font-weight: bolder;
+  color: limegreen;
+}
+
+
+
+
+
+#name2{
+  text-align: center;
+  font-family: sans-serif;
+  width: 85%;
+  height: 25px;
+  font-size: 12px !important;
+  font-family:'Poiret One', cursive !important;
+  border: 3px solid #660000;
+  font-weight: bold;
+  
+}
+
+
+
+/* Comments Box 3 */
+
+
+#title3{
+  font-family:'Poiret One', cursive;
+  font-weight: bolder;
+  color: limegreen;
+}
+
+
+
+
+
+#name3{
+  text-align: center;
+  font-family: sans-serif;
+  width: 85%;
+  height: 25px;
+  font-size: 12px !important;
+  font-family:'Poiret One', cursive !important;
+  border: 3px solid #660000;
+  font-weight: bold;
+  
+}
+
+
+
+/* Comments Box 4 */
+
+
+#title4{
+  font-family:'Poiret One', cursive;
+  font-weight: bolder;
+  color: limegreen;
+}
+
+
+
+
+#name4{
+  text-align: center;
+  font-family: sans-serif;
+  width: 85%;
+  height: 25px;
+  font-size: 12px !important;
+  font-family:'Poiret One', cursive !important;
+  border: 3px solid #660000;
+  font-weight: bold;
+  
+}
+
+
+
+.image{
+border: 5px solid black;
+}
+
+
+
+
